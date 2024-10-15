@@ -8,19 +8,19 @@ class Location
 {
 public:
     Location();
-    Location(std::string a_locationName, std::string a_locationDescription, std::string a_locationConnections);
-    ~Location() = default;
+    Location(std::string locationName, std::string locationDescription, std::string locationConnections);
+    ~Location();
     
     std::string GetLocationName() const;
     std::string GetLocationDescription() const;
     std::vector<std::string> GetLocationConnections() const;
     
 private:
+    void CreateConnections(std::string locationConnections);
 
-    void CreateConnections(std::string a_locationConnections);
-    std::string LocationName;
-    std::string LocationDescription;
-    std::vector<std::string> LocationConnections;
-    std::vector<Item*> LocationItems;
-    std::vector<std::string> LocationInformation;
+    std::string m_locationName;
+    std::string m_locationDescription;
+    std::vector<std::string> m_locationConnections;
+    std::vector<Item*> m_locationItems;
+    std::vector<std::string> m_locationInformation;
 };

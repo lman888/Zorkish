@@ -1,19 +1,19 @@
 #include "Command.h"
 #include "Movement.h"
 
-void Command::CommandType(std::string a_Command)
+void Command::CommandType(std::string textCommand)
 {
-	for (const auto& command : commandWords.LookWords)
+	for (const auto& command : m_commandWords.LookWords)
 	{
-		if (command == a_Command)
+		if (command == textCommand)
 		{
 
 		}
 	}
 
-	for (const auto& command : commandWords.MoveWords)
+	for (const auto& command : m_commandWords.MoveWords)
 	{
-		if (command == a_Command)
+		if (command == textCommand)
 		{
 
 		}

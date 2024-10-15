@@ -7,5 +7,5 @@ public:
 	CommandInterface() = default;
 	virtual ~CommandInterface() = default;
 	
-	virtual void CommandType(std::string a_Command) = 0;
+	virtual void CommandType(std::string Command) = 0;
 };

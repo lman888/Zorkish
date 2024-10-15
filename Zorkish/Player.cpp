@@ -2,23 +2,24 @@
 
 #include "Inventory.h"
 
-Player::Player(Location* a_startingLocation, Inventory* a_playerInventory)
+Player::Player(Location* StartingLocation, Inventory* PlayerInventory)
 {
-    CurrentLocation = a_startingLocation;
-    PlayerInventory = a_playerInventory;
+    m_currentLocation = StartingLocation;
+    m_playerInventory = PlayerInventory;
 }
 
-Location* Player::GetCurrentLocation()
+Player::~Player()
 {
-    return CurrentLocation;
+    m_currentLocation == nullptr;
+    m_playerInventory == nullptr;
 }
 
-void Player::SeeInventory()
+Location* Player::GetCurrentLocation() const
 {
-    PlayerInventory->ShowInventory();
+    return m_currentLocation;
 }
 
-void Player::ChangeLocations(Location* a_newLocation)
+void Player::ChangeLocations(Location* NewLocation)
 {
-    CurrentLocation = a_newLocation;
+    m_currentLocation = NewLocation;
 }

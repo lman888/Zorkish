@@ -5,10 +5,10 @@
 #include "Location.h"
 #include "Item.h"
 
-Map::Map(std::string a_file)
+Map::Map(std::string File)
 {
     std::string fileLine;
-    std::ifstream mapFile(a_file);
+    std::ifstream mapFile(File);
     
     if (mapFile.is_open())
     {
@@ -18,25 +18,41 @@ Map::Map(std::string a_file)
             {
                 continue;
             }
-            locationInformation.push_back(fileLine);
+            m_locationInformation.push_back(fileLine);
         }
     }
     
     CreateLocations();
 }
 
-std::vector<Location*> Map::GetMapLocations()
+Map::~Map()
 {
-    return LocationsArray;
+	for (int i = m_locationsArray.size() - 1; i >= 0; --i)
+	{
+		delete m_locationsArray[i];
+        m_locationsArray[i] = nullptr;
+	}
+}
+
+std::vector<Location*> Map::GetMapLocations() const
+{
+    return m_locationsArray;
 }
 
 void Map::CreateLocations()
 {
+    // Turn into TMAP?
     int informationSize = 3;
-    std::vector<std::string> information;
-    for (int i = 0; i < locationInformation.size(); i += informationSize)
+    for (int i = 0; i < m_locationInformation.size(); i += informationSize)
     {
-        Location* newLocation = new Location(locationInformation[i], locationInformation[i + 1], locationInformation[i + 2]);
-        LocationsArray.push_back(newLocation);
+        std::string locationName = m_locationInformation[i];
+        std::string locationDescription = m_locationInformation[i + 1];
+        std::string locationConnection = m_locationInformation[i + 2];
+
+        Location* newLocation = new Location(locationName, locationDescription, locationConnection);
+        if (newLocation != nullptr)
+        {
+            m_locationsArray.push_back(newLocation);
+        }
     }
 }

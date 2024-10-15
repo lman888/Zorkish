@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "Inventory.h"
 #include "Item.h"
 #include "Location.h"
@@ -10,6 +11,12 @@
 int main(int argc, char* argv[])
 {
     Map* GameMap = new Map("Locations.txt");
+    if (GameMap == nullptr)
+    {
+        std::cout << "No Valid Game Map." << std::endl;
+        return 0;
+    }
+
     std::vector<Location*> locations = GameMap->GetMapLocations();
     
     Inventory* PlayerInventory = new Inventory();
@@ -30,19 +37,29 @@ int main(int argc, char* argv[])
     
     std::cout << PlayerCharacter->GetCurrentLocation()->GetLocationName() << "\n";
     PlayerInventory->ShowInventory();
+    PlayerInventory->RemoveItemInInventory("Letter");
 
-    //Clean Up
+    //Clean Up Pointers and memory
     delete GameMap;
-    delete PlayerInventory;
-    delete PlayerLetter;
-    delete PlayerCharacter;
-    delete MovementInput;
-    
     GameMap = nullptr;
+
+    delete PlayerInventory;
     PlayerInventory = nullptr;
+
+    delete PlayerLetter;
     PlayerLetter = nullptr;
+
+    delete PlayerCharacter;
     PlayerCharacter = nullptr;
+
+    delete MovementInput;
     MovementInput = nullptr;
+
+    if (locations.empty() == false)
+    {
+        locations.clear();
+    }
+    
     
     return 0;
 }

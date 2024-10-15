@@ -1,47 +1,46 @@
 ﻿#include "Inventory.h"
 #include <iostream>
+
 #include "Item.h"
 
 Inventory::Inventory()
 {
 }
 
-void Inventory::AddItemToInventory(std::string a_key, Item* a_value)
+void Inventory::AddItemToInventory(std::string newItemName, Item* newItem)
 {
-    inventory.insert(std::make_pair(a_key, a_value));
+    m_inventory.insert(std::make_pair(newItemName, newItem));
 }
 
-void Inventory::RemoveItemInInvetory(const std::string a_value)
+void Inventory::RemoveItemInInventory(const std::string itemName)
 {
-    std::map<std::string, Item*>::iterator it;
-    
-    for (it = inventory.begin(); it != inventory.end(); ++it)
+    auto iterator = m_inventory.find(itemName);
+    if (iterator != m_inventory.end())
     {
-        if (it->first == a_value)
-        {
-            inventory.erase(it);
-            return;
-        }
+        m_inventory.erase(itemName);
     }
 }
 
 void Inventory::ShowInventory()
 {
-    if (inventory.empty())
+    if (m_inventory.empty() == true)
     {
         std::cout << "Inventory is empty!" << "\n";
         return;
     }
     
-    for (auto const& item: inventory)
+    for (auto const& item : m_inventory)
     {
         Item* chosenItem = item.second;
-        std::cout << "Item Key: " << item.first << "\n";
-        std::cout << "Item description: " << chosenItem->ShowDescription() << "\n";
+        if (chosenItem != nullptr)
+        {
+            std::cout << "Item Key: " << item.first << "\n";
+            std::cout << "Item description: " << chosenItem->ShowDescription() << "\n";
+        }
     }
 }
 
-std::map<std::string, Item*> Inventory::GetInventory()
+std::map<std::string, Item*> Inventory::GetInventory() const
 {
-    return inventory;
+    return m_inventory;
 }

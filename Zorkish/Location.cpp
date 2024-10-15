@@ -1,35 +1,44 @@
 ﻿#include "Location.h"
-#include "Item.h"
 #include <sstream>
 #include <iostream>
+
+#include "Item.h"
 
 
 Location::Location()
 {
-    LocationName = "Default Location yet to be made";
-    LocationDescription = "A Location yet to be created";
+    m_locationName = "Default Location yet to be made";
+    m_locationDescription = "A Location yet to be created";
 }
 
 Location::Location(std::string a_locationName, std::string a_locationDescription, std::string a_locationConnections)
 {
-    LocationName = a_locationName;
-    LocationDescription = a_locationDescription;
+    m_locationName = a_locationName;
+    m_locationDescription = a_locationDescription;
     CreateConnections(a_locationConnections);
+}
+
+Location::~Location()
+{
+	for (int i = m_locationItems.size() - 1; i >= 0; --i)
+	{
+        m_locationItems[i] = nullptr;
+	}
 }
 
 std::string Location::GetLocationName() const
 {
-    return LocationName;
+    return m_locationName;
 }
 
 std::string Location::GetLocationDescription() const
 {
-    return LocationDescription;
+    return m_locationDescription;
 }
 
 std::vector<std::string> Location::GetLocationConnections() const
 {
-    return LocationConnections;
+    return m_locationConnections;
 }
 
 void Location::CreateConnections(std::string a_locationConnections)
@@ -39,6 +48,6 @@ void Location::CreateConnections(std::string a_locationConnections)
 
     while (std::getline(ConnectionStream, ConnectionName, ' '))
     {
-        LocationConnections.push_back(ConnectionName);
+        m_locationConnections.push_back(ConnectionName);
     }
 }

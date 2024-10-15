@@ -7,14 +7,14 @@ class Location;
 class Map
 {
 public:
-    Map(std::string a_file);
-    ~Map() = default;
+    Map(std::string File);
+    ~Map();
 
-    std::vector<Location*>GetMapLocations();
+    std::vector<Location*> GetMapLocations() const;
     
 private:
-
     void CreateLocations();
-    std::vector<std::string> locationInformation;
-    std::vector<Location*> LocationsArray;
+
+    std::vector<std::string> m_locationInformation;
+    std::vector<Location*> m_locationsArray;
 };

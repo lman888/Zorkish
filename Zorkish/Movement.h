@@ -2,8 +2,8 @@
 #include <string>
 #include "CommandInterface.h"
 
-class Player;
 class Map;
+class Player;
 
 struct CommandWords
 {
@@ -14,17 +14,16 @@ struct CommandWords
 class Movement : public CommandInterface
 {
 public:
-    Movement(Map* a_Map, Player* a_Player);
+    Movement(Map* Map, Player* Player);
     ~Movement() override;
 
-    void CommandType(std::string a_Command) override;
+    void CommandType(std::string Command) override;
 
 private:
+    CommandWords m_commands;
+    Map* m_map = nullptr;
+    Player* m_playerCharacter = nullptr;
 
-    CommandWords Commands;
-    Map* MapLocations = nullptr;
-    Player* PlayerCharacter = nullptr;
-
-    bool bIsMoving;
-    bool bIsLooking;
+    bool m_bIsMoving = false;
+    bool m_bIsLooking = false;
 };

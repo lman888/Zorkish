@@ -9,9 +9,8 @@ struct CommandWords
 class Command : CommandInterface
 {
 public:
-	void CommandType(std::string a_Command) override;
+	virtual void CommandType(std::string textCommand) override;
 
 private:
-
-	CommandWords commandWords;
+	CommandWords m_commandWords;
 };

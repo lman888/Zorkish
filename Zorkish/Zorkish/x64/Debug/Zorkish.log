@@ -1,5 +1,3 @@
-﻿  CommandInterface.cpp
-  Movement.cpp
-  Zorkish.cpp
-  Generating Code...
-  Zorkish.vcxproj -> C:\Users\liamw\OneDrive\Documents\UniWork\Y3\Semester 2\COS30031 - Games Programming\Repo\COS30031-103826481-GamesProgramming\GP-base\10c - Spike - Game Data Structures\Zorkish\x64\Debug\Zorkish.exe
+﻿  Location.cpp
+F:\Repos\Zorkish\Zorkish\Location.cpp(23,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Zorkish.vcxproj -> F:\Repos\Zorkish\Zorkish\x64\Debug\Zorkish.exe

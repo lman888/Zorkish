@@ -7,19 +7,15 @@ class Item;
 class Inventory
 {
 public:
-
     Inventory();
     ~Inventory() = default;
     
-    void AddItemToInventory(std::string a_key, Item* a_value);
-
-    void RemoveItemInInvetory(std::string a_value);
-
+    void AddItemToInventory(std::string newItemName, Item* newItem);
+    void RemoveItemInInventory(std::string itemName);
     void ShowInventory();
-    
-    std::map<std::string, Item*> GetInventory();
+    std::map<std::string, Item*> GetInventory() const;
     
 private:
-    std::map<std::string, Item*> inventory;
+    std::map<std::string, Item*> m_inventory;
     
 };

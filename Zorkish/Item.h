@@ -6,9 +6,9 @@ class Item
 {
 public:
     Item();
-    ~Item() = default;
+    ~Item();
 
-    std::string ShowDescription();
+    std::string ShowDescription() const;
     
 private:
     std::string description;

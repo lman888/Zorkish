@@ -6,16 +6,14 @@ class Location;
 class Player
 {
 public:
-    Player(Location* a_startingLocation, Inventory* a_playerInventory);
-    ~Player() = default;
+    Player(Location* StartingLocation, Inventory* PlayerInventory);
+    ~Player();
 
-    Location* GetCurrentLocation();
-    void SeeInventory();
+    Location* GetCurrentLocation() const;
     
-    void ChangeLocations(Location* a_newLocation);
+    void ChangeLocations(Location* NewLocation);
     
 private:
-
-    Location* CurrentLocation = nullptr;
-    Inventory* PlayerInventory = nullptr;
+    Location* m_currentLocation = nullptr;
+    Inventory* m_playerInventory = nullptr;
 };
