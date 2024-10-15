@@ -154,23 +154,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CommandInterface.cpp" />
-    <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Location.cpp" />
-    <ClCompile Include="Map.cpp" />
-    <ClCompile Include="Movement.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Zorkish.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\CommandInterface.cpp" />
+    <ClCompile Include="src\Inventory.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\Location.cpp" />
+    <ClCompile Include="src\Map.cpp" />
+    <ClCompile Include="src\Movement.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Zorkish.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CommandInterface.h" />
-    <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="Location.h" />
-    <ClInclude Include="Map.h" />
-    <ClInclude Include="Movement.h" />
-    <ClInclude Include="Player.h" />
+    <ClInclude Include="src\GameManager.h" />
+    <ClInclude Include="src\CommandInterface.h" />
+    <ClInclude Include="src\Inventory.h" />
+    <ClInclude Include="src\Item.h" />
+    <ClInclude Include="src\Location.h" />
+    <ClInclude Include="src\Map.h" />
+    <ClInclude Include="src\Movement.h" />
+    <ClInclude Include="src\Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
