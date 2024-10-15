@@ -15,15 +15,15 @@ class Movement : public CommandInterface
 {
 public:
     Movement(Map* a_Map, Player* a_Player);
-    ~Movement() = default;
+    ~Movement() override;
 
-    void ProcessCommand(std::string a_Command) override;
+    void CommandType(std::string a_Command) override;
 
 private:
 
     CommandWords Commands;
-    Map* MapLocations;
-    Player* PlayerCharacter;
+    Map* MapLocations = nullptr;
+    Player* PlayerCharacter = nullptr;
 
     bool bIsMoving;
     bool bIsLooking;

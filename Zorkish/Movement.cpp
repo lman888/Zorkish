@@ -12,7 +12,15 @@ Movement::Movement(Map* a_Map, Player* a_Player)
     bIsLooking = false;
 }
 
-void Movement::ProcessCommand(std::string a_Command)
+Movement::~Movement()
+{
+	delete MapLocations;
+	delete PlayerCharacter;
+	MapLocations = nullptr;
+	PlayerCharacter = nullptr;
+}
+
+void Movement::CommandType(std::string a_Command)
 {
 	/* Moving (Need to implement this better) */
 	std::string CommandWord = a_Command.substr(0, a_Command.find(" "));

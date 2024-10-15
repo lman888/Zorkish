@@ -16,6 +16,6 @@ public:
     
 private:
 
-    Location* CurrentLocation;
-    Inventory* PlayerInventory;
+    Location* CurrentLocation = nullptr;
+    Inventory* PlayerInventory = nullptr;
 };
