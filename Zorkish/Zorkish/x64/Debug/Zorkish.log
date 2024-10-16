@@ -1,3 +1,7 @@
-﻿  Location.cpp
-F:\Repos\Zorkish\Zorkish\Location.cpp(23,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  Look.cpp
+  Command.cpp
+  GameManager.cpp
+  Movement.cpp
+  Zorkish.cpp
+  Generating Code...
   Zorkish.vcxproj -> F:\Repos\Zorkish\Zorkish\x64\Debug\Zorkish.exe

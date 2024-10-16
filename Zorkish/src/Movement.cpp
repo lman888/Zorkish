@@ -5,6 +5,10 @@
 #include "Player.h"
 #include "Location.h"
 
+Movement::Movement()
+{
+}
+
 Movement::Movement(Map* Map, Player* Player)
 {
 	m_map = Map;
@@ -61,26 +65,26 @@ void Movement::CommandType(std::string Command)
 	}
 }
 
-//void Movement::ChangeLocations(std::string a_MovementText)
-//{
-//    /* Looking (Need to implement this better) */
-//    for (const auto& LookWord : Commands.LookWords)
-//    {
-//        if (CommandWord == LookWord)
-//        {
-//            bIsLooking = true;
-//        }
-//    }
-//
-//    if (bIsLooking)
-//    {
-//        std::cout << PlayerCharacter->GetCurrentLocation()->GetLocationDescription() << "\n";
-//        std::cout << "Off in the distance you see: ";
-//        for (auto const& location: PlayerCharacter->GetCurrentLocation()->GetLocationConnections())
-//        {
-//            std::cout << location << " ";
-//            bIsLooking = false;
-//        }
-//        std::cout << "\n";
-//    }
-//}
+void Movement::ChangeLocations(std::string a_MovementText)
+{
+    /* Looking (Need to implement this better) */
+    for (const auto& LookWord : m_commands.LookWords)
+    {
+        if (a_MovementText == LookWord)
+        {
+            m_bIsLooking = true;
+        }
+    }
+
+    if (m_bIsLooking)
+    {
+        std::cout << m_playerCharacter->GetCurrentLocation()->GetLocationDescription() << "\n";
+        std::cout << "Off in the distance you see: ";
+        for (auto const& location: m_playerCharacter->GetCurrentLocation()->GetLocationConnections())
+        {
+            std::cout << location << " ";
+            m_bIsLooking = false;
+        }
+        std::cout << "\n";
+    }
+}

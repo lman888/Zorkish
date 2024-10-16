@@ -17,7 +17,7 @@ GameManager::GameManager()
     m_playerInventory->AddItemToInventory("Letter", m_playerLetter);
     m_playerCharacter = new Player(m_locations[0], m_playerInventory);
 
-    m_movementInput = new Movement(m_gameMap, m_playerCharacter);
+    m_commandInterface = new Command(m_gameMap, m_playerCharacter);
 }
 
 GameManager::~GameManager()
@@ -35,8 +35,8 @@ GameManager::~GameManager()
     delete m_playerCharacter;
     m_playerCharacter = nullptr;
 
-    delete m_movementInput;
-    m_movementInput = nullptr;
+    delete m_commandInterface;
+    m_commandInterface = nullptr;
 
     if (m_locations.empty() == false)
     {
@@ -47,9 +47,9 @@ GameManager::~GameManager()
 void GameManager::RunGame()
 {
     std::cout << "Welcome to Zorkish Alpha 0.1" << "\n";
-    while (m_movementText != "quit")
+    while (m_inputText != "quit")
     {
-        std::cin >> m_movementText;
-        m_movementInput->CommandType(m_movementText);
+        std::cin >> m_inputText;
+        m_commandInterface->CommandType(m_inputText);
     }
 }

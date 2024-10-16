@@ -1,6 +1,10 @@
 ﻿#pragma once
+
+//C++ Files
 #include <string>
-#include "CommandInterface.h"
+
+//Zorkish Files
+#include "Command.h"
 
 class Map;
 class Player;
@@ -11,13 +15,16 @@ struct CommandWords
     std::string LookWords[4] = { "look", "see", "gander"};
 };
 
-class Movement : public CommandInterface
+class Movement : public Command
 {
 public:
+    Movement();
     Movement(Map* Map, Player* Player);
     ~Movement() override;
 
     void CommandType(std::string Command) override;
+
+    void ChangeLocations(std::string a_MovementText);
 
 private:
     CommandWords m_commands;

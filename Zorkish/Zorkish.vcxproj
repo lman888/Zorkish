@@ -154,6 +154,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Look.cpp" />
+    <ClCompile Include="src\Command.cpp" />
     <ClCompile Include="src\GameManager.cpp" />
     <ClCompile Include="src\CommandInterface.cpp" />
     <ClCompile Include="src\Inventory.cpp" />
@@ -165,6 +167,8 @@
     <ClCompile Include="src\Zorkish.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Look.h" />
+    <ClInclude Include="src\Command.h" />
     <ClInclude Include="src\GameManager.h" />
     <ClInclude Include="src\CommandInterface.h" />
     <ClInclude Include="src\Inventory.h" />

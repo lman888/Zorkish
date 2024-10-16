@@ -26,7 +26,7 @@ private:
     Item* m_playerLetter = nullptr;
     Player* m_playerCharacter = nullptr;
 
-    CommandInterface* m_movementInput = nullptr;
+    Command* m_commandInterface = nullptr;
 
-    std::string m_movementText;
+    std::string m_inputText;
 };
