@@ -10,8 +10,8 @@ Player::Player(Location* StartingLocation, Inventory* PlayerInventory)
 
 Player::~Player()
 {
-    m_currentLocation == nullptr;
-    m_playerInventory == nullptr;
+    m_currentLocation = nullptr;
+    m_playerInventory = nullptr;
 }
 
 Location* Player::GetCurrentLocation() const

@@ -20,9 +20,9 @@ class Movement : public Command
 public:
     Movement();
     Movement(Map* Map, Player* Player);
-    ~Movement() override;
+    ~Movement();
 
-    void CommandType(std::string Command) override;
+    void CommandType(std::string Command);
 
     void ChangeLocations(std::string a_MovementText);
 

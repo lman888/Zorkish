@@ -1,7 +1,6 @@
-﻿  Look.cpp
-  Command.cpp
+﻿  Command.cpp
   GameManager.cpp
+  Look.cpp
   Movement.cpp
-  Zorkish.cpp
   Generating Code...
   Zorkish.vcxproj -> F:\Repos\Zorkish\Zorkish\x64\Debug\Zorkish.exe

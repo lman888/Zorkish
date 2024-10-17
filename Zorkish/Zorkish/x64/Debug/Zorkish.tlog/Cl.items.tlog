@@ -1,7 +1,6 @@
 F:\Repos\Zorkish\Zorkish\src\Look.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Look.obj
 F:\Repos\Zorkish\Zorkish\src\Command.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Command.obj
 F:\Repos\Zorkish\Zorkish\src\GameManager.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\GameManager.obj
-F:\Repos\Zorkish\Zorkish\src\CommandInterface.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\CommandInterface.obj
 F:\Repos\Zorkish\Zorkish\src\Inventory.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Inventory.obj
 F:\Repos\Zorkish\Zorkish\src\Item.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Item.obj
 F:\Repos\Zorkish\Zorkish\src\Location.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Location.obj
@@ -9,3 +8,4 @@ F:\Repos\Zorkish\Zorkish\src\Map.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\
 F:\Repos\Zorkish\Zorkish\src\Movement.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Movement.obj
 F:\Repos\Zorkish\Zorkish\src\Player.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Player.obj
 F:\Repos\Zorkish\Zorkish\src\Zorkish.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\Zorkish.obj
+F:\Repos\Zorkish\Zorkish\src\ZorkishHelper.cpp;F:\Repos\Zorkish\Zorkish\Zorkish\x64\Debug\ZorkishHelper.obj

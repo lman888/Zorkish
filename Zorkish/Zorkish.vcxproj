@@ -157,7 +157,6 @@
     <ClCompile Include="src\Look.cpp" />
     <ClCompile Include="src\Command.cpp" />
     <ClCompile Include="src\GameManager.cpp" />
-    <ClCompile Include="src\CommandInterface.cpp" />
     <ClCompile Include="src\Inventory.cpp" />
     <ClCompile Include="src\Item.cpp" />
     <ClCompile Include="src\Location.cpp" />
@@ -165,18 +164,19 @@
     <ClCompile Include="src\Movement.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Zorkish.cpp" />
+    <ClCompile Include="src\ZorkishHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Look.h" />
     <ClInclude Include="src\Command.h" />
     <ClInclude Include="src\GameManager.h" />
-    <ClInclude Include="src\CommandInterface.h" />
     <ClInclude Include="src\Inventory.h" />
     <ClInclude Include="src\Item.h" />
     <ClInclude Include="src\Location.h" />
     <ClInclude Include="src\Map.h" />
     <ClInclude Include="src\Movement.h" />
     <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\ZorkishHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

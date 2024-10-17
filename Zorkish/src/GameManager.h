@@ -1,12 +1,17 @@
 #pragma once
 
-#include "Inventory.h"
-#include "Item.h"
-#include "Location.h"
-#include "Map.h"
-#include "Player.h"
-#include "Movement.h"
-#include "CommandInterface.h"
+//C++ Files
+#include <iostream>
+#include <vector>
+
+class Inventory;
+class Item;
+class Location;
+class Map;
+class Player;
+class Movement;
+class Command;
+class ZorkishHelper;
 
 class GameManager
 {
@@ -17,7 +22,7 @@ public:
 	void RunGame();
 
 private:
-	Map* m_gameMap = new Map("mapdata/Locations.txt");
+	Map* m_gameMap = nullptr;
 
 
     std::vector<Location*> m_locations;
@@ -25,8 +30,8 @@ private:
     Inventory* m_playerInventory = nullptr;
     Item* m_playerLetter = nullptr;
     Player* m_playerCharacter = nullptr;
-
     Command* m_commandInterface = nullptr;
+    ZorkishHelper* m_zorkHelper = nullptr;
 
     std::string m_inputText;
 };

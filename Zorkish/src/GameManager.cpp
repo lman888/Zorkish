@@ -1,9 +1,18 @@
 #include "GameManager.h"
 
-#include <iostream>
+//Zorkish Files
+#include "Inventory.h"
+#include "Item.h"
+#include "Location.h"
+#include "Map.h"
+#include "Player.h"
+#include "Movement.h"
+#include "Command.h"
+#include "ZorkishHelper.h"
 
 GameManager::GameManager()
 {
+    m_gameMap = new Map("mapdata/Locations.txt");
     if (m_gameMap == nullptr)
     {
         std::cout << "No Valid Game Map." << std::endl;
@@ -17,7 +26,9 @@ GameManager::GameManager()
     m_playerInventory->AddItemToInventory("Letter", m_playerLetter);
     m_playerCharacter = new Player(m_locations[0], m_playerInventory);
 
-    m_commandInterface = new Command(m_gameMap, m_playerCharacter);
+    m_zorkHelper = new ZorkishHelper(m_playerCharacter, m_gameMap);
+
+    m_commandInterface = new Command(m_zorkHelper);
 }
 
 GameManager::~GameManager()
@@ -37,6 +48,9 @@ GameManager::~GameManager()
 
     delete m_commandInterface;
     m_commandInterface = nullptr;
+
+    delete m_zorkHelper;
+    m_zorkHelper = nullptr;
 
     if (m_locations.empty() == false)
     {

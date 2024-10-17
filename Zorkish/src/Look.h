@@ -2,10 +2,12 @@
 
 #include "Command.h"
 
-class Look : public Command
+class ZorkishHelper;
+
+class Look
 {
 public:
 	Look();
-	virtual void CommandType(std::string textCommand) override;
+	void LookAroundLocation(std::string textCommand, ZorkishHelper* zorkishHelper);
 
 };

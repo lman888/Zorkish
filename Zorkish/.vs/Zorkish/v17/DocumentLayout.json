@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "F:\\Repos\\Zorkish\\Zorkish\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Command.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Command.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Zorkish.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Zorkish.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\ZorkishHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\ZorkishHelper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Look.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Look.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Look.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Movement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,22 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Movement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Look.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Location.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Location.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|F:\\Repos\\Zorkish\\Zorkish\\src\\Zorkish.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1A0A994-3826-4C10-9042-0244D12D0A05}|Zorkish.vcxproj|solutionrelative:src\\Zorkish.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,108 +58,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Look.cpp",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.cpp",
-              "RelativeDocumentMoniker": "src\\Look.cpp",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.cpp",
-              "RelativeToolTip": "src\\Look.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Player.cpp",
+              "RelativeDocumentMoniker": "src\\Player.cpp",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Player.cpp",
+              "RelativeToolTip": "src\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-16T11:51:44.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Look.h",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h",
-              "RelativeDocumentMoniker": "src\\Look.h",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h",
-              "RelativeToolTip": "src\\Look.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T11:50:23.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Location.cpp",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Location.cpp",
-              "RelativeDocumentMoniker": "src\\Location.cpp",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Location.cpp",
-              "RelativeToolTip": "src\\Location.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-16T11:41:24.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Movement.h",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h",
-              "RelativeDocumentMoniker": "src\\Movement.h",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h",
-              "RelativeToolTip": "src\\Movement.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T11:39:48.971Z",
+              "WhenOpened": "2024-10-17T12:14:14.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.h",
-              "RelativeDocumentMoniker": "src\\GameManager.h",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.h",
-              "RelativeToolTip": "src\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Title": "ZorkishHelper.cpp",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.cpp",
+              "RelativeDocumentMoniker": "src\\ZorkishHelper.cpp",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.cpp",
+              "RelativeToolTip": "src\\ZorkishHelper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-17T11:55:56.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZorkishHelper.h",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.h",
+              "RelativeDocumentMoniker": "src\\ZorkishHelper.h",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\ZorkishHelper.h",
+              "RelativeToolTip": "src\\ZorkishHelper.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T11:38:45.406Z",
+              "WhenOpened": "2024-10-17T11:54:47.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp",
-              "RelativeDocumentMoniker": "src\\GameManager.cpp",
-              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp",
-              "RelativeToolTip": "src\\GameManager.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-16T11:30:09.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Zorkish.cpp",
               "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Zorkish.cpp",
               "RelativeDocumentMoniker": "src\\Zorkish.cpp",
               "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Zorkish.cpp",
               "RelativeToolTip": "src\\Zorkish.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T11:37:09.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Look.cpp",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.cpp",
+              "RelativeDocumentMoniker": "src\\Look.cpp",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.cpp",
+              "RelativeToolTip": "src\\Look.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T11:51:44.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Look.h",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h",
+              "RelativeDocumentMoniker": "src\\Look.h",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Look.h",
+              "RelativeToolTip": "src\\Look.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-16T11:50:23.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Movement.h",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h",
+              "RelativeDocumentMoniker": "src\\Movement.h",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.h",
+              "RelativeToolTip": "src\\Movement.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-16T11:39:48.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.h",
+              "RelativeDocumentMoniker": "src\\GameManager.h",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.h",
+              "RelativeToolTip": "src\\GameManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-16T11:38:45.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp",
+              "RelativeDocumentMoniker": "src\\GameManager.cpp",
+              "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\GameManager.cpp",
+              "RelativeToolTip": "src\\GameManager.cpp",
+              "ViewState": "AgIAABkAAAAAAAAAAAD4vzsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T11:30:09.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Movement.cpp",
               "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.cpp",
               "RelativeDocumentMoniker": "src\\Movement.cpp",
               "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Movement.cpp",
               "RelativeToolTip": "src\\Movement.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T11:33:13.767Z",
               "EditorCaption": ""
@@ -164,20 +198,20 @@
               "RelativeDocumentMoniker": "src\\Command.h",
               "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Command.h",
               "RelativeToolTip": "src\\Command.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-16T11:30:34.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Command.cpp",
               "DocumentMoniker": "F:\\Repos\\Zorkish\\Zorkish\\src\\Command.cpp",
               "RelativeDocumentMoniker": "src\\Command.cpp",
               "ToolTip": "F:\\Repos\\Zorkish\\Zorkish\\src\\Command.cpp",
               "RelativeToolTip": "src\\Command.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T11:30:36.371Z",
               "EditorCaption": ""

@@ -1,8 +1,8 @@
 #pragma once
-#include "CommandInterface.h"
 
-class Map;
-class Player;
+#include <iostream>
+
+class ZorkishHelper;
 
 struct Commands
 {
@@ -10,16 +10,15 @@ struct Commands
 	std::string LookWords[3]{ "look", "see", "move"};
 };
 
-class Command : CommandInterface
+class Command
 {
 public:
 	Command();
-	Command(Map* GameMap, Player* PlayerCharacter);
-	virtual void CommandType(std::string textCommand) override;
+	Command(ZorkishHelper* zorkHelper);
+	void CommandType(std::string textCommand);
 
 private:
 	Commands m_commandWords;
 
-	Player* m_player = nullptr;
-	Map* m_map = nullptr;
+	ZorkishHelper* m_zorkHelper = nullptr;
 };

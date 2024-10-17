@@ -6,12 +6,12 @@
 
 Command::Command()
 {
+	
 }
 
-Command::Command(Map* GameMap, Player* PlayerCharacter)
+Command::Command(ZorkishHelper* zorkHelper)
 {
-	m_map = GameMap;
-	PlayerCharacter = m_player;
+	m_zorkHelper = zorkHelper;
 }
 
 void Command::CommandType(std::string textCommand)
@@ -23,7 +23,7 @@ void Command::CommandType(std::string textCommand)
 			//Perform Look Action
 			Look look;
 
-			look.CommandType(lookCommand);
+			look.LookAroundLocation(lookCommand, m_zorkHelper);
 			return;
 		}
 	}
